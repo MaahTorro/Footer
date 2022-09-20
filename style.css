@@ -1,0 +1,86 @@
+
+/**entende-se q é uma documentação de código
+ *
+
+/**
+*Folha de estilo personalizada do site...
+*@author Seu Nome
+ */
+
+ /* layout */
+.flexFooter{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+/* Smartphone Portrait */
+/* body {
+    background-color: #0076a8;
+    color: #d3d3d3;
+} */
+
+/* rodape */
+footer{
+    background-color: rgb(26, 23, 23);
+    color: white;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+#social{
+    margin: 0;
+}
+
+
+/* Smartphone Landscape */
+@media (min-width: 576px){
+    /*@media: só aplica o css se a condição for verdadeira*/
+    body {
+        background-color: #0c6eca;
+        color: #d3d3d3;
+    }
+    
+}
+
+#social{
+    margin-bottom: 25px;
+}
+
+.flexFooter{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* Tablet Portrait */
+@media (min-width: 768px){
+    /*@media: só aplica o css se a condição for verdadeira*/
+    body {
+        background-color: #596e81;
+        color: #d3d3d3;
+    }
+    
+}
+
+/* Tablet Landscape */
+@media (min-width: 992px){
+    /*@media: só aplica o css se a condição for verdadeira*/
+    body {
+        background-color: #032544;
+        color: #d3d3d3;
+    }
+    
+}
+
+/* Desktop */
+@media (min-width: 1200px){
+    /*@media: só aplica o css se a condição for verdadeira*/
+    body {
+        background-color: #000000;
+        color: #d3d3d3;
+    }
+    
+}
