@@ -15,33 +15,13 @@
 }
 
 /* Smartphone Portrait */
-/* body {
-    background-color: #0076a8;
-    color: #d3d3d3;
-} */
 
-/* rodape */
-footer{
-    background-color: rgb(26, 23, 23);
-    color: white;
-    padding: 50px 0px;
-    text-align: center;
-}
 
 #social{
     margin: 0;
 }
 
 
-/* Smartphone Landscape */
-@media (min-width: 576px){
-    /*@media: só aplica o css se a condição for verdadeira*/
-    body {
-        background-color: #0c6eca;
-        color: #d3d3d3;
-    }
-    
-}
 
 #social{
     margin-bottom: 25px;
@@ -84,3 +64,79 @@ footer{
     }
     
 }
+
+/* Banner */
+main {
+    background: url(img/background.jpg);
+    background-size: cover;
+    height: 50vh;
+}
+
+/* rodape */
+footer{
+    background-color: rgb(26, 23, 23);
+    color: white;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+#social {
+    margin-bottom: 25px;
+}
+
+/* Smartphone Landscape */
+@media (min-width: 576px){
+    /*@media: só aplica o css se a condição for verdadeira*/
+    body {
+        color: #000000;
+    }
+    main {
+        height: 100vh;
+    }
+    
+}
+
+
+/** Background video **/
+
+.video-background-holder {
+    position: relative;
+    background-color: black;
+    height: calc(100vh - 72px);
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .video-background-holder video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .video-background-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .video-background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  /** End Background video */

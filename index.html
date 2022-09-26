@@ -47,34 +47,45 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+
+          
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link active" aria-current="page" href="sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Quem somos</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Link</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mais opções
                 </a>
+
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Home</a></li>
+                  <li><a class="dropdown-item" href="index.html">Home</a></li>
+                  <li><hr class="dropdown-divider"></li>
+
                   <li><a class="dropdown-item" href="#">Roupas</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Ofertas</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
               </li>
             </ul>
 
-            <!-- <form class="d-flex" role="search">
+            <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
 
           </div>
 
@@ -85,21 +96,73 @@
 
     </header>
 
-    <main class="container">
-        <h1>
-          É a união Flasco, mano, é sem caô
-Batendo punheta com pau no ventilador
-E se essa mina fala merda, vai ficar sem cabelo
-Vou raspar a cabeça dela sem usar barbeador
-É a união Flasco, Câmera Privê
-Tu responde o chat enquanto eu meto ni você
-Magé é do lado da minha casa, nessa porra caiu ET
-Se eles brotar chei' de cutcharra, eu como eles e você
-É a união Flasco, vai tomar no cu
-Se tu é Fluminense, mano, chupa meu piru
-Só tem maluco abafa-crack nessa porra dessa equipe
-É o trem bala da colina carregando AR-15
-         </h1>
+    <main class="container-fluid d-flex flex-column justify-content-center align-items-center">
+      <h1>Nike</h1>
+      <h2>Just Do It</h2>
+
+
+    <!-- banner estilo carrossel -->
+    <!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/banner.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/banner2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/banner3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div> -->
+
+    <!-- Background video -->
+ <!-- <div class="video-background-holder">
+  <div class="video-background-overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source
+      src="video/pexels-cottonbro-5310847.mp4"
+      type="video/mp4">
+  </video>
+  <div class="video-background-content container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <h1 class="display-4">Bootstrap video background</h1>
+        <p class="lead mb-0">With HTML5 Video and Bootstrap</p>
+        <p class="lead">Snippet by <a href="https://bootstrapious.com/snippets" class="text-white">
+            <u>Bootstrapious</u></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div> -->
+<!-- End Background video -->
+
     </main>
 
 
