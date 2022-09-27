@@ -21,7 +21,19 @@
     margin: 0;
 }
 
+/* conteudo */
+.conteudo{
+    background: url(img/bg2.jpg);
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    background-attachment: fixed;
+}
 
+.destaque{
+    height: 50vh;
+
+}
 
 #social{
     margin-bottom: 25px;
